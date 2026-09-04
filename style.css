@@ -261,4 +261,61 @@ footer {
     display: inline-block;
     white-space: nowrap;
 }
+
+    /* About Section */
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    margin-bottom: 25px;
+}
+
+.about-text p {
+    margin-bottom: 18px;
+}
+
+.about-highlight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.highlight-card {
+    padding: 25px;
+    border-radius: 18px;
+    border: 1px solid rgba(213, 140, 255, 0.2);
+    background: rgba(255, 255, 255, 0.03);
+    transition: 0.3s;
+}
+
+.highlight-card:hover {
+    transform: translateX(8px);
+    border-color: #d58cff;
+}
+
+.highlight-card h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.highlight-card h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.highlight-card p {
+    font-size: 14px;
+}
 }
