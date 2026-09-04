@@ -256,4 +256,8 @@ footer {
     .cards {
         grid-template-columns: 1fr;
     }
+    .wave {
+    display: inline-block;
+    white-space: nowrap;
+}
 }
