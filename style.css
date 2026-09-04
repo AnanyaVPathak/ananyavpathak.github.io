@@ -4,19 +4,256 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background: #0f0f1a;
-    color: white;
-    line-height: 1.6;
+html {
+    scroll-behavior: smooth;
 }
 
-h1 {
-    font-size: 50px;
+body {
+    font-family: Arial, sans-serif;
+    background: #08091a;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* Navigation */
+
+nav {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(8, 9, 26, 0.9);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #d58cff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e58cff;
+}
+
+/* Hero Section */
+
+.hero {
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 8%;
+    background:
+        radial-gradient(circle at 75% 45%, rgba(173, 74, 255, 0.25), transparent 30%),
+        #08091a;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.small-text {
+    color: #d58cff;
+    font-size: 20px;
     margin-bottom: 15px;
 }
 
-p {
+.hero h1 {
+    font-size: 65px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: #d58cff;
+}
+
+.hero h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: #c4c4d8;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(90deg, #806cff, #e878d8);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(200, 100, 255, 0.4);
+}
+
+/* Avatar */
+
+.avatar-container {
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, #b76cff, #4c2870);
+    box-shadow: 0 0 70px rgba(190, 90, 255, 0.5);
+}
+
+.avatar-container img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Cards */
+
+.explore {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 38px;
+    margin-bottom: 45px;
+    color: #d58cff;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.card {
+    padding: 30px 20px;
+    min-height: 200px;
+    border: 1px solid rgba(213, 140, 255, 0.2);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.03);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    border-color: #d58cff;
+    box-shadow: 0 10px 30px rgba(213, 140, 255, 0.15);
+}
+
+.card h3 {
+    margin: 15px 0 10px;
     font-size: 20px;
-    color: #cccccc;
+}
+
+.card p {
+    color: #aaaabd;
+    font-size: 14px;
+}
+
+/* General Sections */
+
+section {
+    padding: 90px 8%;
+}
+
+section h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #d58cff;
+}
+
+section p {
+    max-width: 750px;
+    color: #c4c4d8;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 30px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    color: #888;
+}
+
+/* Mobile */
+
+@media (max-width: 900px) {
+
+    nav ul {
+        gap: 12px;
+    }
+
+    nav ul li a {
+        font-size: 13px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    .avatar-container {
+        width: 300px;
+        height: 300px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+
+    nav {
+        padding: 0 5%;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .hero {
+        padding: 60px 5%;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
 }
