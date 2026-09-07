@@ -1483,4 +1483,459 @@ footer p {
         gap: 18px;
     }
 
+    /* ==================== ACHIEVEMENTS ==================== */
+
+#achievements {
+    background:
+        linear-gradient(
+            180deg,
+            #0a0b1e,
+            #08091a
+        );
+}
+
+.achievements-container {
+    max-width: 1200px;
+
+    margin: auto;
+
+    text-align: center;
+}
+
+.achievements-intro {
+    max-width: 650px;
+
+    margin: 0 auto 40px;
+}
+
+.achievement-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 22px;
+
+    text-align: left;
+}
+
+.achievement-card {
+    position: relative;
+
+    min-height: 270px;
+
+    padding: 30px;
+
+    border-radius: 22px;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255,255,255,0.05),
+            rgba(255,255,255,0.02)
+        );
+
+    border: 1px solid
+        rgba(213, 140, 255, 0.2);
+
+    overflow: hidden;
+
+    transition: 0.3s ease;
+}
+
+.achievement-card::before {
+    content: "";
+
+    position: absolute;
+
+    width: 130px;
+    height: 130px;
+
+    top: -60px;
+    right: -60px;
+
+    border-radius: 50%;
+
+    background:
+        rgba(213, 140, 255, 0.08);
+}
+
+.achievement-card:hover {
+    transform: translateY(-8px);
+
+    border-color: #d58cff;
+
+    box-shadow:
+        0 15px 35px
+        rgba(213, 140, 255, 0.15);
+}
+
+.achievement-icon {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 16px;
+
+    background:
+        rgba(213, 140, 255, 0.1);
+
+    font-size: 26px;
+
+    margin-bottom: 22px;
+}
+
+.achievement-content span:first-child {
+    color: #d58cff;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 1.5px;
+}
+
+.achievement-content h3 {
+    font-size: 23px;
+
+    margin: 8px 0 10px;
+}
+
+.achievement-content p {
+    font-size: 14px;
+
+    line-height: 1.7;
+
+    margin-bottom: 18px;
+}
+
+.achievement-link {
+    color: #d58cff;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    font-weight: bold;
+}
+
+.achievement-link:hover {
+    color: white;
+}
+
+.achievement-coming {
+    color: #8d8da1;
+
+    font-size: 13px;
+}
+
+.achievement-future {
+    opacity: 0.75;
+}
+
+
+
+/* ==================== INTERNSHIP ==================== */
+
+#internship {
+    background:
+        radial-gradient(
+            circle at 20% 50%,
+            rgba(173, 74, 255, 0.12),
+            transparent 35%
+        ),
+        #08091a;
+}
+
+.internship-container {
+    max-width: 1100px;
+
+    margin: auto;
+
+    text-align: center;
+}
+
+.internship-intro {
+    max-width: 650px;
+
+    margin: 0 auto 40px;
+}
+
+.internship-grid {
+    display: grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    gap: 25px;
+
+    text-align: left;
+}
+
+.internship-card {
+    position: relative;
+
+    padding: 35px;
+
+    min-height: 420px;
+
+    border-radius: 25px;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255,255,255,0.06),
+            rgba(255,255,255,0.02)
+        );
+
+    border: 1px solid
+        rgba(213, 140, 255, 0.22);
+
+    overflow: hidden;
+
+    transition: 0.3s ease;
+}
+
+.internship-card:hover {
+    transform: translateY(-8px);
+
+    border-color: #d58cff;
+
+    box-shadow:
+        0 18px 40px
+        rgba(213, 140, 255, 0.15);
+}
+
+.internship-card::after {
+    content: "";
+
+    position: absolute;
+
+    width: 180px;
+    height: 180px;
+
+    right: -90px;
+    bottom: -90px;
+
+    border-radius: 50%;
+
+    background:
+        rgba(213, 140, 255, 0.07);
+}
+
+.internship-number {
+    position: absolute;
+
+    top: 25px;
+    right: 30px;
+
+    color:
+        rgba(213, 140, 255, 0.35);
+
+    font-size: 14px;
+
+    font-weight: bold;
+}
+
+.internship-icon {
+    width: 62px;
+    height: 62px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 18px;
+
+    background:
+        rgba(213, 140, 255, 0.12);
+
+    font-size: 28px;
+
+    margin-bottom: 22px;
+}
+
+.internship-label {
+    color: #d58cff;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+.internship-card h3 {
+    font-size: 27px;
+
+    margin: 8px 0;
+}
+
+.internship-card p {
+    font-size: 15px;
+
+    line-height: 1.7;
+}
+
+.internship-duration {
+    color: #d58cff !important;
+
+    font-size: 14px !important;
+
+    margin-bottom: 15px;
+}
+
+.internship-tech {
+    display: flex;
+
+    gap: 8px;
+
+    flex-wrap: wrap;
+
+    margin-top: 20px;
+}
+
+.internship-tech span {
+    padding: 6px 11px;
+
+    border-radius: 20px;
+
+    color: #d58cff;
+
+    background:
+        rgba(213, 140, 255, 0.08);
+
+    border: 1px solid
+        rgba(213, 140, 255, 0.18);
+
+    font-size: 12px;
+}
+
+
+/* ==================== CERTIFICATE PLACEHOLDER ==================== */
+
+.certificate-placeholder {
+    margin-top: 25px;
+
+    padding: 15px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    border-radius: 15px;
+
+    background:
+        rgba(255,255,255,0.03);
+
+    border: 1px dashed
+        rgba(213, 140, 255, 0.3);
+}
+
+.certificate-placeholder > span {
+    font-size: 25px;
+}
+
+.certificate-placeholder p {
+    margin: 0;
+
+    font-size: 13px;
+}
+
+.certificate-placeholder small {
+    color: #77778b;
+
+    font-size: 11px;
+}
+
+
+/* ==================== LOR ==================== */
+
+.lor-company {
+    color: #d58cff !important;
+
+    font-weight: bold;
+
+    margin-bottom: 15px;
+}
+
+.lor-highlight {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin: 25px 0;
+
+    padding: 13px 16px;
+
+    border-radius: 14px;
+
+    background:
+        rgba(213, 140, 255, 0.07);
+
+    border-left: 2px solid #d58cff;
+}
+
+.lor-highlight span {
+    color: #d58cff;
+
+    font-size: 20px;
+}
+
+.lor-highlight p {
+    margin: 0;
+
+    font-size: 13px;
+}
+
+
+
+/* ==================== RESPONSIVE ==================== */
+
+@media (max-width: 900px) {
+
+    .achievement-grid {
+        grid-template-columns:
+            1fr 1fr;
+    }
+
+    .internship-grid {
+        grid-template-columns:
+            1fr;
+    }
+
+}
+
+
+@media (max-width: 700px) {
+
+    .achievement-grid {
+        grid-template-columns:
+            1fr;
+    }
+
+    .achievement-card {
+        min-height: auto;
+    }
+
+    .internship-card {
+        padding: 25px;
+
+        min-height: auto;
+    }
+
+    .internship-card h3 {
+        font-size: 23px;
+    }
+
+}
 }
