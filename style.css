@@ -1,1941 +1,1237 @@
-/* ==================== RESET ==================== */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ananya Pathak | Data Science Student Portfolio">
+    <title>Ananya Pathak | Data Science Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ==================== NAVIGATION ==================== -->
+<nav>
+    <a href="#home" class="logo">Ananya<span>.</span></a>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#achievements">Credentials</a></li>
+        <li><a href="#internship">Internship</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+
+<!-- ==================== HERO ==================== -->
+<section class="hero" id="home">
+
+    <div class="hero-grid"></div>
+
+    <div class="glow glow-one"></div>
+    <div class="glow glow-two"></div>
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    <span class="data-float data-one">01 / DATA</span>
+    <span class="data-float data-two">PYTHON</span>
+    <span class="data-float data-three">SQL</span>
+    <span class="data-float data-four">{ }</span>
 
-html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 75px;
-}
+    <div class="hero-text">
 
-body {
-    font-family: Arial, sans-serif;
-    background: #08091a;
-    color: white;
-    line-height: 1.6;
-    overflow-x: hidden;
-}
+        <div class="eyebrow">
+            <span></span>
+            Hey there! Welcome to my space
+        </div>
 
-a {
-    color: inherit;
-}
+        <h1>Hello, I'm <span>Ananya</span></h1>
 
+        <h2>Data Science Student</h2>
 
+        <div class="hero-role">
+            <span>Data</span>
+            <b>•</b>
+            <span>Analytics</span>
+            <b>•</b>
+            <span>Technology</span>
+        </div>
 
-/* ==================== NAVIGATION ==================== */
+        <p>
+            I'm passionate about exploring data, learning technology and
+            turning information into meaningful insights and practical solutions.
+        </p>
 
-nav {
-    height: 75px;
+        <div class="hero-buttons">
+            <a href="#projects" class="button">
+                Explore My Work ↗
+            </a>
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+            <a href="#about" class="hero-outline-button">
+                Know More ↓
+            </a>
+        </div>
 
-    padding: 0 8%;
+        <div class="hero-mini-stats">
 
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+            <div>
+                <strong>DS</strong>
+                <span>My Direction</span>
+            </div>
 
-    background: rgba(8, 9, 26, 0.92);
+            <div>
+                <strong>AI</strong>
+                <span>My Interest</span>
+            </div>
 
-    backdrop-filter: blur(12px);
+            <div>
+                <strong>∞</strong>
+                <span>Always Learning</span>
+            </div>
 
-    border-bottom: 1px solid
-        rgba(255, 255, 255, 0.08);
-}
+        </div>
 
-.logo {
-    font-size: 25px;
-    font-weight: bold;
-    color: #d58cff;
-}
+    </div>
 
-nav ul {
-    display: flex;
 
-    list-style: none;
+    <div class="hero-visual">
 
-    gap: 28px;
-}
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
 
-nav ul li a {
-    text-decoration: none;
+        <div class="floating-label label-data">
+            <span class="label-dot"></span>
+            DATA SCIENCE
+        </div>
 
-    color: #ffffff;
+        <div class="floating-label label-python">
+            PYTHON
+        </div>
 
-    font-size: 15px;
+        <div class="floating-label label-sql">
+            SQL
+        </div>
 
-    transition: 0.3s;
-}
+        <div class="avatar-frame">
+            <div class="avatar-glow"></div>
 
-nav ul li a:hover {
-    color: #d58cff;
-}
+            <img src="avatar.png" alt="Ananya Pathak">
+        </div>
 
+        <div class="mini-card mini-card-one">
+            <strong>01</strong>
+            <span>Learn</span>
+        </div>
 
+        <div class="mini-card mini-card-two">
+            <strong>↗</strong>
+            <span>Build</span>
+        </div>
 
-/* ==================== COMMON ==================== */
+    </div>
 
-.small-text {
-    color: #d58cff;
 
-    font-size: 17px;
+    <a href="#about" class="scroll-hint">
+        SCROLL <span>↓</span>
+    </a>
 
-    margin-bottom: 12px;
-}
+</section>
 
-section {
-    padding: 85px 8%;
-}
 
-section h2 {
-    font-size: 45px;
+<!-- ==================== EXPLORE ==================== -->
+<section class="explore">
 
-    margin-bottom: 20px;
-}
+    <div class="section-heading center">
 
-section h2 span {
-    color: #d58cff;
-}
+        <div class="small-text">
+            Discover my world ✦
+        </div>
 
-section p {
-    color: #c4c4d8;
+        <h2>
+            Explore <span>More</span>
+        </h2>
 
-    font-size: 17px;
+    </div>
 
-    line-height: 1.8;
-}
 
+    <div class="cards">
 
+        <a href="#about" class="card">
 
-/* ==================== HERO ==================== */
+            <div class="card-icon">♡</div>
 
-/* ==================== CREATIVE HERO VISUAL ==================== */
+            <h3>About Me</h3>
 
-.hero {
-    position: relative;
+            <p>
+                My background, interests and what drives me.
+            </p>
 
-    min-height: calc(100vh - 75px);
+            <span class="card-arrow">↗</span>
 
-    display: flex;
+        </a>
 
-    align-items: center;
 
-    justify-content: space-between;
+        <a href="#skills" class="card">
 
-    gap: 45px;
+            <div class="card-icon">&lt;/&gt;</div>
 
-    padding: 55px 8%;
+            <h3>Skills</h3>
 
-    overflow: hidden;
+            <p>
+                Technologies and analytical skills I'm developing.
+            </p>
 
-    background:
-        radial-gradient(
-            circle at 78% 45%,
-            rgba(173, 74, 255, 0.22),
-            transparent 28%
-        ),
-        #08091a;
-}
+            <span class="card-arrow">↗</span>
 
+        </a>
 
-/* ==================== HERO GRID ==================== */
 
-.hero-grid {
-    position: absolute;
+        <a href="#projects" class="card">
 
-    width: 500px;
-    height: 500px;
+            <div class="card-icon">▦</div>
 
-    right: 5%;
-    top: 50%;
+            <h3>Projects</h3>
 
-    transform: translateY(-50%);
+            <p>
+                Things I've built while learning and experimenting.
+            </p>
 
-    opacity: 0.12;
+            <span class="card-arrow">↗</span>
 
-    background-image:
-        linear-gradient(
-            rgba(213, 140, 255, 0.25) 1px,
-            transparent 1px
-        ),
-        linear-gradient(
-            90deg,
-            rgba(213, 140, 255, 0.25) 1px,
-            transparent 1px
-        );
+        </a>
 
-    background-size: 35px 35px;
 
-    mask-image:
-        radial-gradient(
-            circle,
-            black 20%,
-            transparent 70%
-        );
-}
+        <a href="#journey" class="card">
 
+            <div class="card-icon">✦</div>
 
-/* ==================== HERO TEXT ==================== */
+            <h3>Journey</h3>
 
-.hero-text {
-    position: relative;
+            <p>
+                From Computer Technology to Data Science.
+            </p>
 
-    z-index: 5;
+            <span class="card-arrow">↗</span>
 
-    max-width: 650px;
-}
+        </a>
 
-.hero h1 {
-    font-size: 62px;
 
-    line-height: 1.08;
+        <a href="#contact" class="card">
 
-    margin-bottom: 16px;
+            <div class="card-icon">✉</div>
 
-    white-space: nowrap;
-}
+            <h3>Contact</h3>
 
-.hero h1 span {
-    color: #d58cff;
-}
+            <p>
+                Let's connect, collaborate and create.
+            </p>
 
-.hero h2 {
-    font-size: 24px;
+            <span class="card-arrow">↗</span>
 
-    margin-bottom: 10px;
-}
+        </a>
 
-.hero-role {
-    display: flex;
+    </div>
 
-    align-items: center;
+</section>
 
-    gap: 10px;
 
-    margin-bottom: 15px;
+<!-- ==================== ABOUT ==================== -->
+<section id="about" class="section-dark">
 
-    font-size: 18px;
+    <div class="about-content">
 
-    font-weight: bold;
+        <div class="about-text">
 
-    color: #d58cff;
-}
+            <div class="small-text">
+                Get to know me ♡
+            </div>
 
-.hero-role b {
-    color: #6d687d;
-}
+            <h2>
+                About <span>Me</span>
+            </h2>
 
-.hero p {
-    max-width: 570px;
+            <p>
+                I'm Ananya Pathak, a Data Science student with a foundation
+                in Computer Technology and a growing interest in data,
+                analytics and AI.
+            </p>
 
-    margin-bottom: 18px;
+            <p>
+                I completed my Diploma in Computer Technology from
+                Priyadarshini and am currently pursuing my engineering
+                degree in Data Science at Vincent Palloti College of Engineering.
+            </p>
 
-    color: #c4c4d8;
+            <p>
+                I enjoy working with technology, exploring data and building
+                projects that transform ideas and information into practical solutions.
+            </p>
 
-    font-size: 16px;
+            <p>
+                My goal is to build strong analytical and technical skills
+                and create meaningful solutions using data and technology.
+            </p>
 
-    line-height: 1.7;
-}
 
+            <div class="about-details">
 
-/* ==================== HERO BUTTONS ==================== */
+                <div>
+                    <span>🎓</span>
+                    <strong>Data Science</strong>
+                    <small>Engineering Student</small>
+                </div>
 
-.hero-buttons {
-    display: flex;
+                <div>
+                    <span>💻</span>
+                    <strong>Computer Technology</strong>
+                    <small>Diploma Background</small>
+                </div>
 
-    align-items: center;
+                <div>
+                    <span>📊</span>
+                    <strong>Data & Analytics</strong>
+                    <small>Growing Interest</small>
+                </div>
 
-    gap: 14px;
+                <div>
+                    <span>🚀</span>
+                    <strong>Always Learning</strong>
+                    <small>Building & Exploring</small>
+                </div>
 
-    flex-wrap: wrap;
-}
+            </div>
 
-.hero-buttons .button {
-    margin-top: 5px;
-}
+        </div>
 
-.hero-outline-button {
-    display: inline-block;
 
-    padding: 12px 25px;
+        <div class="about-side">
 
-    border-radius: 30px;
+            <div class="about-quote">
 
-    text-decoration: none;
+                <div class="quote-mark">
+                    “
+                </div>
 
-    color: white;
+                <p>
+                    Data tells a story. I want to understand it.
+                </p>
 
-    border: 1px solid
-        rgba(213, 140, 255, 0.6);
+                <div class="quote-heart">
+                    ♡
+                </div>
 
-    background:
-        rgba(213, 140, 255, 0.05);
+            </div>
 
-    transition: 0.3s;
-}
 
-.hero-outline-button:hover {
-    transform: translateY(-4px);
+            <div class="about-tag-cloud">
 
-    background:
-        rgba(213, 140, 255, 0.12);
+                <span>Python</span>
+                <span>SQL</span>
+                <span>Analytics</span>
+                <span>AI</span>
+                <span>Technology</span>
 
-    border-color: #d58cff;
-}
+            </div>
 
+        </div>
 
-/* ==================== HERO VISUAL ==================== */
+    </div>
 
-.hero-visual {
-    position: relative;
+</section>
 
-    width: 430px;
-    height: 450px;
 
-    flex-shrink: 0;
+<!-- ==================== SKILLS ==================== -->
+<section id="skills">
 
-    display: flex;
+    <div class="skills-container">
 
-    align-items: center;
-    justify-content: center;
+        <div class="section-heading center">
 
-    z-index: 3;
-}
+            <div class="small-text">
+                What I'm learning ✦
+            </div>
 
+            <h2>
+                My <span>Skills</span>
+            </h2>
 
-/* ==================== PHOTO FRAME ==================== */
+            <p class="skills-intro">
+                A growing collection of technical, analytical and development
+                skills that I'm building throughout my Data Science journey.
+            </p>
 
-.avatar-frame {
-    position: relative;
+        </div>
 
-    width: 310px;
-    height: 365px;
 
-    display: flex;
+        <div class="skills-grid">
 
-    align-items: center;
-    justify-content: center;
 
-    overflow: hidden;
+            <div class="skill-card featured-skill">
 
-    border-radius:
-        48% 52% 42% 58%
-        /
-        42% 45% 55% 58%;
+                <div class="skill-top">
+                    <span class="skill-icon">🐍</span>
+                    <span class="skill-level">CORE</span>
+                </div>
 
-    transform:
-        rotate(3deg);
+                <h3>Python</h3>
 
-    background:
-        linear-gradient(
-            145deg,
-            #d58cff,
-            #7135a8,
-            #241337
-        );
+                <p>
+                    Programming, automation and data-oriented development.
+                </p>
 
-    border: 2px solid
-        rgba(213, 140, 255, 0.75);
+                <div class="skill-line">
+                    <span style="width:85%"></span>
+                </div>
 
-    box-shadow:
-        0 0 45px
-        rgba(190, 90, 255, 0.35),
+            </div>
 
-        20px 20px 0
-        rgba(213, 140, 255, 0.08);
 
-    z-index: 4;
-}
+            <div class="skill-card">
 
+                <div class="skill-top">
+                    <span class="skill-icon">⌘</span>
+                    <span class="skill-level">DATA</span>
+                </div>
 
-/* ==================== PHOTO ==================== */
+                <h3>SQL</h3>
 
-.avatar-frame img {
-    width: 100%;
-    height: 100%;
+                <p>
+                    Databases, queries and structured data.
+                </p>
 
-    object-fit: cover;
+                <div class="skill-line">
+                    <span style="width:78%"></span>
+                </div>
 
-    transform:
-        rotate(-3deg)
-        scale(1.04);
+            </div>
 
-    border-radius:
-        48% 52% 42% 58%
-        /
-        42% 45% 55% 58%;
-}
 
+            <div class="skill-card">
 
-/* ==================== PHOTO GLOW ==================== */
+                <div class="skill-top">
+                    <span class="skill-icon">📊</span>
+                    <span class="skill-level">DATA</span>
+                </div>
 
-.avatar-glow {
-    position: absolute;
+                <h3>Data Analytics</h3>
 
-    width: 180px;
-    height: 180px;
+                <p>
+                    Exploring data and finding useful insights.
+                </p>
 
-    top: -60px;
-    right: -50px;
+                <div class="skill-line">
+                    <span style="width:72%"></span>
+                </div>
 
-    border-radius: 50%;
+            </div>
 
-    background:
-        rgba(213, 140, 255, 0.4);
 
-    filter: blur(45px);
+            <div class="skill-card">
 
-    z-index: 5;
+                <div class="skill-top">
+                    <span class="skill-icon">▤</span>
+                    <span class="skill-level">TOOLS</span>
+                </div>
 
-    pointer-events: none;
-}
+                <h3>Excel</h3>
 
+                <p>
+                    Data management, organization and analysis.
+                </p>
 
-/* ==================== ORBITS ==================== */
+                <div class="skill-line">
+                    <span style="width:82%"></span>
+                </div>
 
-.orbit {
-    position: absolute;
+            </div>
 
-    border: 1px solid
-        rgba(213, 140, 255, 0.25);
 
-    border-radius: 50%;
+            <div class="skill-card">
 
-    pointer-events: none;
-}
+                <div class="skill-top">
+                    <span class="skill-icon">&lt;/&gt;</span>
+                    <span class="skill-level">WEB</span>
+                </div>
 
-.orbit-one {
-    width: 380px;
-    height: 380px;
+                <h3>HTML & CSS</h3>
 
-    transform:
-        rotate(-20deg)
-        scaleX(0.72);
+                <p>
+                    Building clean and responsive web interfaces.
+                </p>
 
-    border-left-color: #d58cff;
-}
+                <div class="skill-line">
+                    <span style="width:85%"></span>
+                </div>
 
-.orbit-two {
-    width: 420px;
-    height: 420px;
+            </div>
 
-    transform:
-        rotate(25deg)
-        scaleX(0.58);
 
-    border-right-color:
-        rgba(232, 120, 216, 0.7);
-}
+            <div class="skill-card">
 
+                <div class="skill-top">
+                    <span class="skill-icon">JS</span>
+                    <span class="skill-level">WEB</span>
+                </div>
 
-/* ==================== DATA LABEL ==================== */
+                <h3>JavaScript</h3>
 
-.floating-label {
-    position: absolute;
+                <p>
+                    Interactive web experiences and logic.
+                </p>
 
-    display: flex;
+                <div class="skill-line">
+                    <span style="width:68%"></span>
+                </div>
 
-    align-items: center;
+            </div>
 
-    gap: 8px;
 
-    padding: 8px 13px;
+            <div class="skill-card">
 
-    border-radius: 20px;
+                <div class="skill-top">
+                    <span class="skill-icon">⚛</span>
+                    <span class="skill-level">LEARNING</span>
+                </div>
 
-    background:
-        rgba(12, 13, 33, 0.85);
+                <h3>React.js</h3>
 
-    border: 1px solid
-        rgba(213, 140, 255, 0.35);
+                <p>
+                    Component-based frontend development.
+                </p>
 
-    backdrop-filter: blur(10px);
+                <div class="skill-line">
+                    <span style="width:60%"></span>
+                </div>
 
-    color: #d58cff;
+            </div>
 
-    font-size: 12px;
 
-    font-weight: bold;
+            <div class="skill-card">
 
-    letter-spacing: 1px;
+                <div class="skill-top">
+                    <span class="skill-icon">◉</span>
+                    <span class="skill-level">TOOLS</span>
+                </div>
 
-    z-index: 7;
-}
+                <h3>Git & GitHub</h3>
 
-.label-data {
-    top: 35px;
-    right: 15px;
-}
+                <p>
+                    Version control and project collaboration.
+                </p>
 
-.label-dot {
-    width: 7px;
-    height: 7px;
+                <div class="skill-line">
+                    <span style="width:72%"></span>
+                </div>
 
-    border-radius: 50%;
+            </div>
 
-    background: #d58cff;
+        </div>
 
-    box-shadow:
-        0 0 10px
-        rgba(213, 140, 255, 0.8);
-}
+    </div>
 
+</section>
 
-/* ==================== MINI CARDS ==================== */
 
-.mini-card {
-    position: absolute;
+<!-- ==================== PROJECTS ==================== -->
+<section id="projects" class="section-dark">
 
-    display: flex;
+    <div class="projects-container">
 
-    flex-direction: column;
+        <div class="section-heading center">
 
-    justify-content: center;
+            <div class="small-text">
+                Things I've built ✦
+            </div>
 
-    width: 75px;
-    height: 65px;
+            <h2>
+                My <span>Projects</span>
+            </h2>
 
-    padding: 10px;
+            <p class="projects-intro">
+                Projects and experiments where technology, data and
+                problem-solving come together.
+            </p>
 
-    border-radius: 15px;
+        </div>
 
-    background:
-        rgba(14, 15, 38, 0.9);
 
-    border: 1px solid
-        rgba(213, 140, 255, 0.3);
+        <div class="project-grid">
 
-    backdrop-filter: blur(12px);
 
-    box-shadow:
-        0 10px 30px
-        rgba(0, 0, 0, 0.3);
+            <article class="project-card">
 
-    z-index: 8;
-}
+                <div class="project-number">
+                    01 / PYTHON • AI
+                </div>
 
-.mini-card strong {
-    color: #d58cff;
+                <div class="project-icon">
+                    ◉
+                </div>
 
-    font-size: 18px;
-}
+                <h3>
+                    Face Recognition Attendance
+                </h3>
 
-.mini-card span {
-    color: #9d9daf;
+                <p>
+                    A Python-based attendance system using face recognition,
+                    OpenCV, Flask and Excel for practical attendance management.
+                </p>
 
-    font-size: 11px;
-}
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>OpenCV</span>
+                    <span>Flask</span>
+                    <span>Excel</span>
+                </div>
 
-.mini-card-one {
-    left: 5px;
-    bottom: 70px;
-}
+                <span class="project-status">
+                    Currently Building
+                </span>
 
-.mini-card-two {
-    right: 0;
-    bottom: 25px;
-}
+            </article>
 
 
-/* ==================== FLOATING DATA TEXT ==================== */
+            <article class="project-card featured-project">
 
-.data-float {
-    position: absolute;
+                <div class="project-number">
+                    02 / WEB • LIVE
+                </div>
 
-    color: rgba(213, 140, 255, 0.35);
+                <div class="project-icon">
+                    🏍
+                </div>
 
-    font-size: 12px;
+                <h3>
+                    RideHub
+                </h3>
 
-    font-weight: bold;
+                <p>
+                    A bike accessories portal created with React and JavaScript,
+                    designed around product discovery and a rider-focused experience.
+                </p>
 
-    letter-spacing: 2px;
+                <div class="project-tech">
+                    <span>React</span>
+                    <span>JavaScript</span>
+                    <span>Tailwind</span>
+                </div>
 
-    z-index: 1;
+                <a
+                    href="https://yourridehub.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link">
+                    View Live Project ↗
+                </a>
 
-    pointer-events: none;
-}
+            </article>
 
-.data-one {
-    top: 18%;
 
-    left: 48%;
-}
+            <article class="project-card">
 
-.data-two {
-    top: 28%;
+                <div class="project-number">
+                    03 / DATA • ANALYTICS
+                </div>
 
-    right: 4%;
-}
+                <div class="project-icon">
+                    ▥
+                </div>
 
-.data-three {
-    bottom: 20%;
+                <h3>
+                    Data Analytics Project
+                </h3>
 
-    right: 46%;
-}
+                <p>
+                    A future project focused on cleaning, exploring and
+                    visualizing data to turn raw information into useful insights.
+                </p>
 
-.data-four {
-    bottom: 12%;
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>Visualization</span>
+                </div>
 
-    left: 45%;
-}
+                <span class="project-status">
+                    Coming Soon
+                </span>
 
-.hero-text {
-    max-width: 650px;
-}
+            </article>
 
-.hero h1 {
-    font-size: 65px;
+        </div>
 
-    line-height: 1.1;
+    </div>
 
-    margin-bottom: 20px;
+</section>
 
-    white-space: nowrap;
-}
 
-.hero h1 span {
-    color: #d58cff;
-}
+<!-- ==================== JOURNEY ==================== -->
+<section id="journey">
 
-.hero h2 {
-    font-size: 25px;
+    <div class="journey-container">
 
-    margin-bottom: 12px;
-}
+        <div class="section-heading center">
 
-.hero p {
-    margin-bottom: 15px;
-}
+            <div class="small-text">
+                My story ✦
+            </div>
 
-.hero p:first-of-type {
-    color: #d58cff;
+            <h2>
+                My <span>Journey</span>
+            </h2>
 
-    font-weight: bold;
-}
+        </div>
 
 
+        <div class="timeline">
 
-/* ==================== BUTTON ==================== */
 
-.button {
-    display: inline-block;
+            <div class="timeline-item">
 
-    margin-top: 12px;
+                <div class="timeline-dot">
+                    01
+                </div>
 
-    padding: 13px 27px;
+                <div class="timeline-content">
 
-    border-radius: 30px;
+                    <span>FOUNDATION</span>
 
-    text-decoration: none;
+                    <h3>
+                        Diploma — Computer Technology
+                    </h3>
 
-    color: white;
+                    <p>
+                        Priyadarshini
+                    </p>
 
-    background:
-        linear-gradient(
-            90deg,
-            #806cff,
-            #e878d8
-        );
+                </div>
 
-    font-weight: bold;
+            </div>
 
-    transition: 0.3s;
-}
 
-.button:hover {
-    transform: translateY(-4px);
+            <div class="timeline-item active">
 
-    box-shadow:
-        0 10px 30px
-        rgba(200, 100, 255, 0.4);
-}
+                <div class="timeline-dot">
+                    02
+                </div>
 
+                <div class="timeline-content">
 
+                    <span>NEXT CHAPTER</span>
 
-/* ==================== AVATAR ==================== */
+                    <h3>
+                        Engineering — Data Science
+                    </h3>
 
-.avatar-container {
-    width: 430px;
-    height: 430px;
+                    <p>
+                        Vincent Palloti College of Engineering
+                    </p>
 
-    flex-shrink: 0;
+                </div>
 
-    border-radius: 50%;
+            </div>
 
-    display: flex;
 
-    justify-content: center;
-    align-items: center;
+            <div class="timeline-item">
 
-    background:
-        radial-gradient(
-            circle,
-            #b76cff,
-            #4c2870
-        );
+                <div class="timeline-dot">
+                    03
+                </div>
 
-    box-shadow:
-        0 0 70px
-        rgba(190, 90, 255, 0.5);
-}
+                <div class="timeline-content">
 
-.avatar-container img {
-    width: 90%;
-    height: 90%;
+                    <span>PRESENT</span>
 
-    object-fit: cover;
+                    <h3>
+                        Learning & Building
+                    </h3>
 
-    border-radius: 50%;
-}
+                    <p>
+                        Python • SQL • Data Analytics • AI • Web Development
+                    </p>
 
+                </div>
 
+            </div>
 
-/* ==================== EXPLORE ==================== */
 
-.explore {
-    text-align: center;
+            <div class="timeline-item">
 
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
+                <div class="timeline-dot">
+                    04
+                </div>
 
-.section-title {
-    color: white;
+                <div class="timeline-content">
 
-    margin-bottom: 40px;
-}
+                    <span>FUTURE</span>
 
-.cards {
-    display: grid;
+                    <h3>
+                        Data Science Career
+                    </h3>
 
-    grid-template-columns:
-        repeat(5, 1fr);
+                    <p>
+                        Growing into a strong analytical and technology-focused professional.
+                    </p>
 
-    gap: 18px;
+                </div>
 
-    max-width: 1200px;
+            </div>
 
-    margin: auto;
-}
+        </div>
 
-.card {
-    position: relative;
+    </div>
 
-    min-height: 210px;
+</section>
 
-    padding: 27px 18px;
 
-    border-radius: 20px;
+<!-- ==================== CREDENTIALS ==================== -->
+<section id="achievements" class="section-dark">
 
-    border: 1px solid
-        rgba(213, 140, 255, 0.2);
+    <div class="achievements-container">
 
-    background:
-        rgba(255, 255, 255, 0.03);
+        <div class="section-heading center">
 
-    text-decoration: none;
+            <div class="small-text">
+                Milestones & learning ✦
+            </div>
 
-    transition: 0.3s;
-}
+            <h2>
+                Certificates & <span>Credentials</span>
+            </h2>
 
-.card:hover {
-    transform: translateY(-8px);
+            <p class="achievements-intro">
+                A professional collection of certifications, recommendations
+                and internship documents from my learning journey.
+            </p>
 
-    border-color: #d58cff;
+        </div>
 
-    box-shadow:
-        0 15px 35px
-        rgba(213, 140, 255, 0.15);
-}
 
-.card-icon {
-    width: 55px;
-    height: 55px;
+        <div class="certification-grid">
 
-    margin: auto;
 
-    display: flex;
+            <!-- MICROSOFT -->
+            <article class="certification-card featured-cert">
 
-    align-items: center;
-    justify-content: center;
+                <div class="cert-icon">
+                    📊
+                </div>
 
-    border-radius: 50%;
+                <div class="cert-content">
 
-    background:
-        rgba(213, 140, 255, 0.12);
+                    <span class="cert-badge">
+                        FEATURED CERTIFICATION
+                    </span>
 
-    color: #d58cff;
+                    <h3>
+                        Microsoft Data Analysis
+                    </h3>
 
-    font-size: 24px;
-}
+                    <p>
+                        Data analysis certification from Microsoft Learn.
+                    </p>
 
-.card h3 {
-    margin: 16px 0 8px;
+                    <a
+                        href="microsoft-data-analysis.pdf"
+                        target="_blank"
+                        class="cert-button">
+                        View Certificate ↗
+                    </a>
 
-    font-size: 19px;
-}
+                </div>
 
-.card p {
-    font-size: 14px;
-}
+            </article>
 
-.card-arrow {
-    position: absolute;
 
-    bottom: 16px;
-    right: 18px;
+            <!-- DOTNET -->
+            <article class="certification-card">
 
-    color: #d58cff;
+                <div class="cert-icon">
+                    ◈
+                </div>
 
-    font-size: 20px;
-}
+                <div class="cert-content">
 
+                    <span class="cert-type">
+                        IT NETWORKZ
+                    </span>
 
+                    <h3>
+                        .NET Development
+                    </h3>
 
-/* ==================== ABOUT ==================== */
+                    <p>
+                        Completion certificate for .NET development training.
+                    </p>
 
-#about {
-    background:
-        linear-gradient(
-            180deg,
-            #08091a,
-            #0c0d21
-        );
-}
+                    <a
+                        href="dotnet-completion-certificate.pdf"
+                        target="_blank"
+                        class="cert-button">
+                        View Certificate ↗
+                    </a>
 
-.about-content {
-    max-width: 1200px;
+                </div>
 
-    margin: auto;
+            </article>
 
-    display: flex;
 
-    justify-content: space-between;
+            <!-- REACT -->
+            <article class="certification-card">
 
-    align-items: center;
+                <div class="cert-icon">
+                    ⚛
+                </div>
 
-    gap: 60px;
-}
+                <div class="cert-content">
 
-.about-text {
-    flex: 1;
-}
+                    <span class="cert-type">
+                        IT NETWORKZ
+                    </span>
 
-.about-text p {
-    margin-bottom: 15px;
-}
+                    <h3>
+                        React.js Web Development
+                    </h3>
 
-.about-details {
-    display: grid;
+                    <p>
+                        Completion certificate for React.js web development training.
+                    </p>
 
-    grid-template-columns:
-        repeat(2, 1fr);
+                    <a
+                        href="reactjs-completion-certificate.pdf"
+                        target="_blank"
+                        class="cert-button">
+                        View Certificate ↗
+                    </a>
 
-    gap: 15px;
+                </div>
 
-    margin-top: 25px;
-}
+            </article>
 
-.about-details div {
-    padding: 16px;
 
-    border-radius: 15px;
+            <!-- AI PYTHON -->
+            <article class="certification-card">
 
-    background:
-        rgba(255, 255, 255, 0.03);
+                <div class="cert-icon">
+                    🐍
+                </div>
 
-    border: 1px solid
-        rgba(213, 140, 255, 0.15);
-}
+                <div class="cert-content">
 
-.about-details strong,
-.about-details small {
-    display: block;
+                    <span class="cert-type">
+                        IT NETWORKZ
+                    </span>
 
-    margin-left: 28px;
-}
+                    <h3>
+                        AI Using Python
+                    </h3>
 
-.about-details strong {
-    margin-top: -24px;
-}
+                    <p>
+                        Completion certificate for AI using Python training.
+                    </p>
 
-.about-details small {
-    color: #9999ad;
+                    <a
+                        href="ai-using-python-completion-certificate.pdf"
+                        target="_blank"
+                        class="cert-button">
+                        View Certificate ↗
+                    </a>
 
-    margin-top: 4px;
-}
+                </div>
 
-.about-quote {
-    width: 280px;
+            </article>
 
-    padding: 40px 28px;
 
-    text-align: center;
+            <!-- IT NETWORKZ LOR -->
+            <article class="certification-card">
 
-    border-radius: 30px;
+                <div class="cert-icon">
+                    ✉
+                </div>
 
-    background:
-        linear-gradient(
-            145deg,
-            rgba(213, 140, 255, 0.12),
-            rgba(232, 120, 216, 0.05)
-        );
+                <div class="cert-content">
 
-    border: 1px solid
-        rgba(213, 140, 255, 0.2);
-}
+                    <span class="cert-type">
+                        IT NETWORKZ
+                    </span>
 
-.quote-mark {
-    font-size: 60px;
+                    <h3>
+                        Letter of Recommendation
+                    </h3>
 
-    color: #d58cff;
+                    <p>
+                        Professional recommendation received for internship/training experience.
+                    </p>
 
-    line-height: 0.7;
-}
+                    <a
+                        href="letter-of-recommendation-it-networkz.pdf"
+                        target="_blank"
+                        class="cert-button">
+                        View LOR ↗
+                    </a>
 
-.about-quote p {
-    font-size: 27px;
+                </div>
 
-    color: #ffffff;
+            </article>
 
-    font-style: italic;
 
-    line-height: 1.3;
+            <!-- COLLECTION -->
+            <article class="certification-card">
 
-    margin: 20px 0;
-}
+                <div class="cert-icon">
+                    🏆
+                </div>
 
-.quote-heart {
-    color: #e878d8;
+                <div class="cert-content">
 
-    font-size: 25px;
-}
+                    <span class="cert-type">
+                        ACHIEVEMENTS
+                    </span>
 
+                    <h3>
+                        Certificates & Trophies
+                    </h3>
 
+                    <p>
+                        A collection of additional achievements and recognition.
+                    </p>
 
-/* ==================== SKILLS ==================== */
+                    <a
+                        href="certificates-and-trophies.pdf"
+                        target="_blank"
+                        class="cert-button">
+                        View Collection ↗
+                    </a>
 
-#skills {
-    background: #0a0b1e;
-}
+                </div>
 
-.skills-container {
-    max-width: 1200px;
+            </article>
 
-    margin: auto;
+        </div>
 
-    text-align: center;
-}
+    </div>
 
-.skills-intro {
-    max-width: 650px;
+</section>
 
-    margin: 0 auto 40px;
-}
 
-.skills-grid {
-    display: grid;
+<!-- ==================== INTERNSHIP ==================== -->
+<section id="internship">
 
-    grid-template-columns:
-        repeat(4, 1fr);
+    <div class="internship-container">
 
-    gap: 18px;
-}
+        <div class="section-heading center">
 
-.skill-card {
-    padding: 27px 20px;
+            <div class="small-text">
+                Professional experience ✦
+            </div>
 
-    border-radius: 20px;
+            <h2>
+                Internship & <span>Recognition</span>
+            </h2>
 
-    background:
-        rgba(255, 255, 255, 0.03);
+            <p class="internship-intro">
+                My first professional experience where I explored AI,
+                web development and full-stack technologies.
+            </p>
 
-    border: 1px solid
-        rgba(213, 140, 255, 0.2);
+        </div>
 
-    transition: 0.3s ease;
-}
 
-.skill-card:hover {
-    transform: translateY(-8px);
+        <div class="internship-grid">
 
-    border-color: #d58cff;
 
-    box-shadow:
-        0 10px 30px
-        rgba(180, 90, 255, 0.15);
-}
+            <!-- INTERNSHIP -->
+            <article class="internship-card">
 
-.skill-icon {
-    font-size: 32px;
+                <span class="internship-number">
+                    01
+                </span>
 
-    margin-bottom: 12px;
+                <div class="internship-icon">
+                    💼
+                </div>
 
-    color: #d58cff;
-}
+                <span class="internship-label">
+                    INTERNSHIP
+                </span>
 
-.skill-card h3 {
-    margin-bottom: 7px;
+                <h3>
+                    Kavin India Pvt. Ltd.
+                </h3>
 
-    font-size: 20px;
-}
+                <p class="internship-duration">
+                    12 Weeks • 2025
+                </p>
 
-.skill-card p {
-    font-size: 14px;
-}
+                <p>
+                    Gained practical exposure to Artificial Intelligence using
+                    Python, Web Development using React.js and Full Stack
+                    Development using DotNet.
+                </p>
 
+                <div class="internship-tech">
+                    <span>Python</span>
+                    <span>AI</span>
+                    <span>React.js</span>
+                    <span>DotNet</span>
+                </div>
 
+                <a
+                    href="kavin-internship-certificate.pdf"
+                    target="_blank"
+                    class="button small-button">
+                    View Internship Certificate ↗
+                </a>
 
-/* ==================== PROJECTS ==================== */
+            </article>
 
-.projects-container {
-    max-width: 1200px;
 
-    margin: auto;
+            <!-- LOR -->
+            <article class="internship-card lor-card">
 
-    text-align: center;
-}
+                <span class="internship-number">
+                    02
+                </span>
 
-.projects-intro {
-    max-width: 650px;
+                <div class="internship-icon">
+                    ✉
+                </div>
 
-    margin: 0 auto 40px;
-}
+                <span class="internship-label">
+                    RECOGNITION
+                </span>
 
-.project-grid {
-    display: grid;
+                <h3>
+                    Letter of Recommendation
+                </h3>
 
-    grid-template-columns:
-        repeat(3, 1fr);
+                <p class="lor-company">
+                    Kavin India Pvt. Ltd.
+                </p>
 
-    gap: 22px;
+                <p>
+                    Recognition received for my internship experience and
+                    contribution during my time with the organization.
+                </p>
 
-    text-align: left;
-}
+                <div class="lor-highlight">
 
-.project-card {
-    position: relative;
+                    <span>✦</span>
 
-    padding: 30px;
+                    <p>
+                        Professional Recommendation
+                    </p>
 
-    min-height: 310px;
+                </div>
 
-    border-radius: 22px;
+                <a
+                    href="letter-of-recommendation-kavin.pdf"
+                    target="_blank"
+                    class="button">
+                    View LOR ↗
+                </a>
 
-    background:
-        linear-gradient(
-            145deg,
-            rgba(255,255,255,0.05),
-            rgba(255,255,255,0.02)
-        );
+            </article>
 
-    border: 1px solid
-        rgba(213, 140, 255, 0.2);
+        </div>
 
-    transition: 0.3s;
-}
+    </div>
 
-.project-card:hover {
-    transform: translateY(-8px);
+</section>
 
-    border-color: #d58cff;
 
-    box-shadow:
-        0 15px 35px
-        rgba(213, 140, 255, 0.15);
-}
+<!-- ==================== CONTACT ==================== -->
+<section id="contact">
 
-.project-number {
-    color: #d58cff;
+    <div class="contact-container">
 
-    font-size: 15px;
+        <div class="small-text">
+            Let's connect ♡
+        </div>
 
-    margin-bottom: 20px;
-}
+        <h2>
+            Let's Build Something <span>Great</span>
+        </h2>
 
-.project-card h3 {
-    font-size: 24px;
+        <p>
+            I'm always open to learning, collaborating and connecting
+            with interesting people.
+        </p>
 
-    margin-bottom: 13px;
-}
+        <div class="contact-buttons">
 
-.project-card p {
-    font-size: 15px;
+            <a
+                href="mailto:ananyapathak2211@gmail.com"
+                class="button">
+                Email Me ✉
+            </a>
 
-    margin-bottom: 18px;
-}
+            <a
+                href="https://github.com/ananyavpathak"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button secondary-button">
+                GitHub ↗
+            </a>
 
-.project-tech {
-    color: #d58cff;
+            <a
+                href="https://linkedin.com/in/ananyapathak"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button secondary-button">
+                LinkedIn ↗
+            </a>
 
-    font-size: 13px;
+        </div>
 
-    margin-bottom: 22px;
-}
+    </div>
 
-.project-link {
-    text-decoration: none;
+</section>
 
-    color: white;
 
-    font-weight: bold;
-}
+<!-- ==================== FOOTER ==================== -->
+<footer>
 
-.project-link:hover {
-    color: #d58cff;
-}
+    <div class="footer-logo">
+        Ananya<span>.</span>
+    </div>
 
-.project-coming {
-    color: #d58cff;
-}
+    <p>
+        Data • Technology • Curiosity ♡
+    </p>
 
-.project-placeholder {
-    opacity: 0.7;
-}
+    <div class="footer-links">
 
+        <a
+            href="https://github.com/ananyavpathak"
+            target="_blank"
+            rel="noopener noreferrer">
+            GitHub
+        </a>
 
+        <span>•</span>
 
-/* ==================== JOURNEY ==================== */
+        <a
+            href="https://linkedin.com/in/ananyapathak"
+            target="_blank"
+            rel="noopener noreferrer">
+            LinkedIn
+        </a>
 
-.journey-container {
-    max-width: 900px;
+        <span>•</span>
 
-    margin: auto;
-}
+        <a href="mailto:ananyapathak2211@gmail.com">
+            Email
+        </a>
 
-.timeline {
-    margin-top: 40px;
+    </div>
 
-    position: relative;
-}
+    <p class="copyright">
+        © 2026 Ananya Pathak. Built with curiosity & code.
+    </p>
 
-.timeline::before {
-    content: "";
+</footer>
 
-    position: absolute;
-
-    left: 28px;
-
-    top: 0;
-
-    bottom: 0;
-
-    width: 2px;
-
-    background:
-        linear-gradient(
-            #d58cff,
-            rgba(213, 140, 255, 0.1)
-        );
-}
-
-.timeline-item {
-    display: flex;
-
-    gap: 28px;
-
-    margin-bottom: 38px;
-}
-
-.timeline-dot {
-    width: 58px;
-    height: 58px;
-
-    flex-shrink: 0;
-
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-
-    border-radius: 50%;
-
-    background: #16152d;
-
-    border: 2px solid #d58cff;
-
-    color: #d58cff;
-
-    font-weight: bold;
-
-    z-index: 2;
-}
-
-.timeline-content {
-    padding: 5px 0;
-}
-
-.timeline-content span {
-    color: #d58cff;
-
-    font-size: 14px;
-}
-
-.timeline-content h3 {
-    font-size: 23px;
-
-    margin: 5px 0 7px;
-}
-
-
-
-/* ==================== CONTACT ==================== */
-
-#contact {
-    text-align: center;
-
-    background:
-        radial-gradient(
-            circle at center,
-            rgba(173, 74, 255, 0.15),
-            transparent 45%
-        );
-}
-
-.contact-container {
-    max-width: 750px;
-
-    margin: auto;
-}
-
-.contact-container h2 {
-    font-size: 48px;
-}
-
-.contact-container p {
-    margin-bottom: 10px;
-}
-
-.contact-buttons {
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-
-    gap: 15px;
-
-    flex-wrap: wrap;
-
-    margin-top: 20px;
-}
-
-.contact-buttons .button {
-    min-width: 140px;
-
-    text-align: center;
-}
-
-.secondary-button {
-    background: transparent;
-
-    border: 1px solid #d58cff;
-}
-
-.secondary-button:hover {
-    background:
-        rgba(213, 140, 255, 0.12);
-
-    box-shadow:
-        0 10px 30px
-        rgba(213, 140, 255, 0.25);
-}
-
-
-
-/* ==================== FOOTER ==================== */
-
-footer {
-    padding: 30px;
-
-    text-align: center;
-
-    border-top: 1px solid
-        rgba(255, 255, 255, 0.08);
-
-    color: #88889a;
-}
-
-footer p {
-    font-size: 14px;
-
-    margin: 4px;
-}
-
-.footer-links {
-    margin-top: 10px;
-}
-
-.footer-links a {
-    color: #d58cff;
-
-    text-decoration: none;
-
-    margin: 0 8px;
-
-    transition: 0.3s;
-}
-
-.footer-links a:hover {
-    color: #ffffff;
-}
-
-.footer-links span {
-    color: #55556a;
-}
-
-
-
-/* ==================== TABLET ==================== */
-
-@media (max-width: 1000px) {
-
-    .cards {
-        grid-template-columns:
-            repeat(2, 1fr);
-    }
-
-    .skills-grid {
-        grid-template-columns:
-            repeat(2, 1fr);
-    }
-
-    .project-grid {
-        grid-template-columns:
-            1fr 1fr;
-    }
-
-    .hero h1 {
-        font-size: 50px;
-    }
-
-    .avatar-container {
-        width: 350px;
-        height: 350px;
-    }
-
-}
-
-
-
-/* ==================== MOBILE ==================== */
-
-/* ==================== MOBILE HERO ==================== */
-
-@media (max-width: 700px) {
-
-    nav {
-        padding: 0 5%;
-    }
-
-    nav ul {
-        display: none;
-    }
-
-    section {
-        padding: 60px 5%;
-    }
-
-
-    .hero {
-        flex-direction: column;
-
-        text-align: center;
-
-        min-height: auto;
-
-        padding-top: 45px;
-
-        padding-bottom: 55px;
-
-        gap: 25px;
-    }
-
-
-    .hero h1 {
-        font-size: 40px;
-
-        white-space: normal;
-    }
-
-
-    .hero h2 {
-        font-size: 20px;
-    }
-
-
-    .hero-role {
-        justify-content: center;
-
-        font-size: 15px;
-    }
-
-
-    .hero p {
-        margin-left: auto;
-        margin-right: auto;
-
-        font-size: 15px;
-    }
-
-
-    .hero-buttons {
-        justify-content: center;
-    }
-
-
-    .hero-visual {
-        width: 320px;
-        height: 350px;
-    }
-
-
-    .avatar-frame {
-        width: 230px;
-        height: 285px;
-    }
-
-
-    .orbit-one {
-        width: 300px;
-        height: 300px;
-    }
-
-
-    .orbit-two {
-        width: 325px;
-        height: 325px;
-    }
-
-
-    .label-data {
-        top: 20px;
-        right: 5px;
-    }
-
-
-    .mini-card-one {
-        left: 0;
-        bottom: 45px;
-    }
-
-
-    .mini-card-two {
-        right: 0;
-        bottom: 15px;
-    }
-
-
-    .data-float {
-        display: none;
-    }
-
-
-    .hero-grid {
-        width: 350px;
-        height: 350px;
-
-        right: 50%;
-
-        transform:
-            translate(50%, -50%);
-    }
-
-
-    /* Existing mobile sections */
-
-    .cards {
-        grid-template-columns: 1fr;
-    }
-
-    .skills-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .project-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .about-content {
-        flex-direction: column;
-
-        gap: 40px;
-    }
-
-    .about-details {
-        grid-template-columns: 1fr;
-    }
-
-    .about-quote {
-        width: 100%;
-    }
-
-    .contact-container h2 {
-        font-size: 35px;
-    }
-
-    .timeline-item {
-        gap: 18px;
-    }
-
-    /* ==================== ACHIEVEMENTS ==================== */
-
-#achievements {
-    background:
-        linear-gradient(
-            180deg,
-            #0a0b1e,
-            #08091a
-        );
-}
-
-.achievements-container {
-    max-width: 1200px;
-
-    margin: auto;
-
-    text-align: center;
-}
-
-.achievements-intro {
-    max-width: 650px;
-
-    margin: 0 auto 40px;
-}
-
-.achievement-grid {
-    display: grid;
-
-    grid-template-columns:
-        repeat(3, 1fr);
-
-    gap: 22px;
-
-    text-align: left;
-}
-
-.achievement-card {
-    position: relative;
-
-    min-height: 270px;
-
-    padding: 30px;
-
-    border-radius: 22px;
-
-    background:
-        linear-gradient(
-            145deg,
-            rgba(255,255,255,0.05),
-            rgba(255,255,255,0.02)
-        );
-
-    border: 1px solid
-        rgba(213, 140, 255, 0.2);
-
-    overflow: hidden;
-
-    transition: 0.3s ease;
-}
-
-.achievement-card::before {
-    content: "";
-
-    position: absolute;
-
-    width: 130px;
-    height: 130px;
-
-    top: -60px;
-    right: -60px;
-
-    border-radius: 50%;
-
-    background:
-        rgba(213, 140, 255, 0.08);
-}
-
-.achievement-card:hover {
-    transform: translateY(-8px);
-
-    border-color: #d58cff;
-
-    box-shadow:
-        0 15px 35px
-        rgba(213, 140, 255, 0.15);
-}
-
-.achievement-icon {
-    width: 55px;
-    height: 55px;
-
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-
-    border-radius: 16px;
-
-    background:
-        rgba(213, 140, 255, 0.1);
-
-    font-size: 26px;
-
-    margin-bottom: 22px;
-}
-
-.achievement-content span:first-child {
-    color: #d58cff;
-
-    font-size: 12px;
-
-    font-weight: bold;
-
-    letter-spacing: 1.5px;
-}
-
-.achievement-content h3 {
-    font-size: 23px;
-
-    margin: 8px 0 10px;
-}
-
-.achievement-content p {
-    font-size: 14px;
-
-    line-height: 1.7;
-
-    margin-bottom: 18px;
-}
-
-.achievement-link {
-    color: #d58cff;
-
-    text-decoration: none;
-
-    font-size: 14px;
-
-    font-weight: bold;
-}
-
-.achievement-link:hover {
-    color: white;
-}
-
-.achievement-coming {
-    color: #8d8da1;
-
-    font-size: 13px;
-}
-
-.achievement-future {
-    opacity: 0.75;
-}
-
-
-
-/* ==================== INTERNSHIP ==================== */
-
-#internship {
-    background:
-        radial-gradient(
-            circle at 20% 50%,
-            rgba(173, 74, 255, 0.12),
-            transparent 35%
-        ),
-        #08091a;
-}
-
-.internship-container {
-    max-width: 1100px;
-
-    margin: auto;
-
-    text-align: center;
-}
-
-.internship-intro {
-    max-width: 650px;
-
-    margin: 0 auto 40px;
-}
-
-.internship-grid {
-    display: grid;
-
-    grid-template-columns:
-        1fr 1fr;
-
-    gap: 25px;
-
-    text-align: left;
-}
-
-.internship-card {
-    position: relative;
-
-    padding: 35px;
-
-    min-height: 420px;
-
-    border-radius: 25px;
-
-    background:
-        linear-gradient(
-            145deg,
-            rgba(255,255,255,0.06),
-            rgba(255,255,255,0.02)
-        );
-
-    border: 1px solid
-        rgba(213, 140, 255, 0.22);
-
-    overflow: hidden;
-
-    transition: 0.3s ease;
-}
-
-.internship-card:hover {
-    transform: translateY(-8px);
-
-    border-color: #d58cff;
-
-    box-shadow:
-        0 18px 40px
-        rgba(213, 140, 255, 0.15);
-}
-
-.internship-card::after {
-    content: "";
-
-    position: absolute;
-
-    width: 180px;
-    height: 180px;
-
-    right: -90px;
-    bottom: -90px;
-
-    border-radius: 50%;
-
-    background:
-        rgba(213, 140, 255, 0.07);
-}
-
-.internship-number {
-    position: absolute;
-
-    top: 25px;
-    right: 30px;
-
-    color:
-        rgba(213, 140, 255, 0.35);
-
-    font-size: 14px;
-
-    font-weight: bold;
-}
-
-.internship-icon {
-    width: 62px;
-    height: 62px;
-
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-
-    border-radius: 18px;
-
-    background:
-        rgba(213, 140, 255, 0.12);
-
-    font-size: 28px;
-
-    margin-bottom: 22px;
-}
-
-.internship-label {
-    color: #d58cff;
-
-    font-size: 12px;
-
-    font-weight: bold;
-
-    letter-spacing: 2px;
-}
-
-.internship-card h3 {
-    font-size: 27px;
-
-    margin: 8px 0;
-}
-
-.internship-card p {
-    font-size: 15px;
-
-    line-height: 1.7;
-}
-
-.internship-duration {
-    color: #d58cff !important;
-
-    font-size: 14px !important;
-
-    margin-bottom: 15px;
-}
-
-.internship-tech {
-    display: flex;
-
-    gap: 8px;
-
-    flex-wrap: wrap;
-
-    margin-top: 20px;
-}
-
-.internship-tech span {
-    padding: 6px 11px;
-
-    border-radius: 20px;
-
-    color: #d58cff;
-
-    background:
-        rgba(213, 140, 255, 0.08);
-
-    border: 1px solid
-        rgba(213, 140, 255, 0.18);
-
-    font-size: 12px;
-}
-
-
-/* ==================== CERTIFICATE PLACEHOLDER ==================== */
-
-.certificate-placeholder {
-    margin-top: 25px;
-
-    padding: 15px;
-
-    display: flex;
-
-    align-items: center;
-
-    gap: 12px;
-
-    border-radius: 15px;
-
-    background:
-        rgba(255,255,255,0.03);
-
-    border: 1px dashed
-        rgba(213, 140, 255, 0.3);
-}
-
-.certificate-placeholder > span {
-    font-size: 25px;
-}
-
-.certificate-placeholder p {
-    margin: 0;
-
-    font-size: 13px;
-}
-
-.certificate-placeholder small {
-    color: #77778b;
-
-    font-size: 11px;
-}
-
-
-/* ==================== LOR ==================== */
-
-.lor-company {
-    color: #d58cff !important;
-
-    font-weight: bold;
-
-    margin-bottom: 15px;
-}
-
-.lor-highlight {
-    display: flex;
-
-    align-items: center;
-
-    gap: 12px;
-
-    margin: 25px 0;
-
-    padding: 13px 16px;
-
-    border-radius: 14px;
-
-    background:
-        rgba(213, 140, 255, 0.07);
-
-    border-left: 2px solid #d58cff;
-}
-
-.lor-highlight span {
-    color: #d58cff;
-
-    font-size: 20px;
-}
-
-.lor-highlight p {
-    margin: 0;
-
-    font-size: 13px;
-}
-
-
-
-/* ==================== RESPONSIVE ==================== */
-
-@media (max-width: 900px) {
-
-    .achievement-grid {
-        grid-template-columns:
-            1fr 1fr;
-    }
-
-    .internship-grid {
-        grid-template-columns:
-            1fr;
-    }
-
-}
-
-
-@media (max-width: 700px) {
-
-    .achievement-grid {
-        grid-template-columns:
-            1fr;
-    }
-
-    .achievement-card {
-        min-height: auto;
-    }
-
-    .internship-card {
-        padding: 25px;
-
-        min-height: auto;
-    }
-
-    .internship-card h3 {
-        font-size: 23px;
-    }
-
-}
-}
+</body>
+</html>
